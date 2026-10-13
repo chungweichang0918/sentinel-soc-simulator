@@ -1,14 +1,17 @@
 {
-  "checkedAt": "2026-10-13T07:20:41.084Z",
-  "checksPassed": 23,
+  "checkedAt": "2026-10-13T09:04:20.757Z",
+  "checksPassed": 27,
   "checks": [
     "Direct file:// launch; no standard answer before submission",
     "Local-analysis label; first-use guide dismiss / persist / reopen / start using keyboard focus",
+    "Clear all search / advanced filters / sort with feedback; selection remains until explicit keyboard deselection",
+    "Selection preserves table scroll; notes update in place; deselection keeps marks / notes; detail returns keyboard focus to the list",
     "ssh: UI selects correct evidence / risk / actions; score 100; retry preserves best",
     "sql: UI selects correct evidence / risk / actions; score 100; retry preserves best",
     "ransom: UI selects correct evidence / risk / actions; score 100; retry preserves best",
     "exfil: UI selects correct evidence / risk / actions; score 100; retry preserves best",
     "All four best scores persist after reload",
+    "Submitted evidence is locked; clearing filters does not change submitted answers or scores",
     "Fixed deterministic grading and adjacent-level partial credit",
     "Evidence maximum 3; actions maximum 2 enforced",
     "Incorrect answers receive specific zero / partial-credit explanations",
@@ -22,6 +25,7 @@
     "Previous / next follows filtered descending order across pages; boundaries and filtered-out records are explicit",
     "Embedded demo matches the downloadable sample file exactly",
     "Full embedded demo works with browser network disabled",
+    "10,000-record rapid search renders the newest query; clear cancels pending search and restores all records",
     "390 / 768 / 1024 / 1440 responsive widths; mobile panels operate without page overflow",
     "Reset clears built-in best scores / marks / notes",
     "No browser JavaScript errors and no external network requests"
