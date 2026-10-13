@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-13T07:20:41.084Z",
+  "checksPassed": 23,
+  "checks": [
+    "Direct file:// launch; no standard answer before submission",
+    "Local-analysis label; first-use guide dismiss / persist / reopen / start using keyboard focus",
+    "ssh: UI selects correct evidence / risk / actions; score 100; retry preserves best",
+    "sql: UI selects correct evidence / risk / actions; score 100; retry preserves best",
+    "ransom: UI selects correct evidence / risk / actions; score 100; retry preserves best",
+    "exfil: UI selects correct evidence / risk / actions; score 100; retry preserves best",
+    "All four best scores persist after reload",
+    "Fixed deterministic grading and adjacent-level partial credit",
+    "Evidence maximum 3; actions maximum 2 enforced",
+    "Incorrect answers receive specific zero / partial-credit explanations",
+    "Combined source / IP / user / time filters; manual built-in marks and notes persist",
+    "Parser: object / array / JSONL / text, original raw, unique IDs, missing values, unknown zone, invalid date, limits",
+    "Custom Log imports; HTML treated as text; no scoring; custom raw / marks / notes never persist; export works",
+    "Local .log file upload; unparsed lines remain available",
+    "Timeline tab and keyboard navigation / search shortcut",
+    "One-click embedded demo: 95 logs, no fetch, no scoring, explicit unevaluated status",
+    "Manual low / critical / cleared marks update high-risk count and unevaluated remainder without automatic judgment",
+    "Previous / next follows filtered descending order across pages; boundaries and filtered-out records are explicit",
+    "Embedded demo matches the downloadable sample file exactly",
+    "Full embedded demo works with browser network disabled",
+    "390 / 768 / 1024 / 1440 responsive widths; mobile panels operate without page overflow",
+    "Reset clears built-in best scores / marks / notes",
+    "No browser JavaScript errors and no external network requests"
+  ],
+  "errors": [],
+  "externalRequests": 0
+}
